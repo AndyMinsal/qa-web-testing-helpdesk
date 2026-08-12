@@ -145,6 +145,8 @@ Este proyecto demuestra experiencia práctica en:
 - Gestión de incidencias en Jira.
 - Seguimiento del ciclo de pruebas.
 - Elaboración de evidencias de testing.
+- 
+- ![Prueba](evidencias/01-jira-proyecto.PNG)
 
 ## 🎓 Conclusión
 
