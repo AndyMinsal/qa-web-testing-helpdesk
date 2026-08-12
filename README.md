@@ -1,6 +1,6 @@
 # QA Web Testing — HelpDesk Portal
 
-Proyecto práctico de QA Manual realizado sobre una aplicación web de pruebas, utilizando Jira para la planificación, ejecución y seguimiento de casos de prueba y defectos.
+Proyecto práctico de **QA Manual** realizado sobre una aplicación web de pruebas, utilizando Jira para la planificación, ejecución y seguimiento de casos de prueba y defectos.
 
 ## 🎯 Objetivo
 
@@ -8,13 +8,13 @@ Evaluar el funcionamiento del proceso de registro de usuarios de una aplicación
 
 El proyecto incluye:
 
-- Definición de requisitos.
-- Diseño de un Test Plan.
-- Creación de casos de prueba.
-- Ejecución de pruebas funcionales.
-- Registro y documentación de defectos.
-- Seguimiento del estado de las pruebas.
-- Gestión del ciclo de vida de un defecto.
+* Definición de requisitos.
+* Diseño de un Test Plan.
+* Creación de casos de prueba.
+* Ejecución de pruebas funcionales.
+* Registro y documentación de defectos.
+* Seguimiento del estado de las pruebas.
+* Gestión del ciclo de vida de un defecto.
 
 ## 🧪 Alcance de las pruebas
 
@@ -22,31 +22,31 @@ Las pruebas se centraron en el formulario de registro de usuarios.
 
 Se comprobaron principalmente:
 
-- Registro con datos válidos.
-- Campos obligatorios.
-- Formato del correo electrónico.
-- Correos electrónicos duplicados.
-- Contraseñas diferentes.
-- Requisitos mínimos de contraseña.
+* Registro con datos válidos.
+* Campos obligatorios.
+* Formato del correo electrónico.
+* Correos electrónicos duplicados.
+* Contraseñas diferentes.
+* Requisitos mínimos de contraseña.
 
 ## 📋 Casos de prueba
 
-| ID | Caso de prueba | Resultado |
-|---|---|---|
-| TC-01 | Registro con datos válidos | PASS |
-| TC-02 | Campos obligatorios vacíos | PASS |
-| TC-03 | Correo electrónico inválido | PASS |
-| TC-04 | Contraseñas diferentes | PASS |
-| TC-05 | Correo electrónico ya registrado | PASS |
-| TC-06 | Contraseña que no cumple los requisitos | FAIL |
+| ID    | Caso de prueba                          | Resultado |
+| ----- | --------------------------------------- | --------- |
+| TC-01 | Registro con datos válidos              | PASS      |
+| TC-02 | Campos obligatorios vacíos              | PASS      |
+| TC-03 | Correo electrónico inválido             | PASS      |
+| TC-04 | Contraseñas diferentes                  | PASS      |
+| TC-05 | Correo electrónico ya registrado        | PASS      |
+| TC-06 | Contraseña que no cumple los requisitos | FAIL      |
 
 ## 📊 Resultados
 
 **Casos ejecutados:** 6
 
-- ✅ PASS: 5
-- ❌ FAIL: 1
-- 🐞 Defectos identificados: 1
+* ✅ PASS: 5
+* ❌ FAIL: 1
+* 🐞 Defectos identificados: 1
 
 ### Resultado general
 
@@ -62,8 +62,8 @@ Sin embargo, durante la ejecución del caso **TC-06** se identificó un defecto 
 
 **Datos utilizados:**
 
-- Contraseña: `123456`
-- Confirmación: `123456`
+* Contraseña: `123456`
+* Confirmación: `123456`
 
 ### Resultado esperado
 
@@ -77,13 +77,13 @@ La aplicación acepta la contraseña y permite completar el registro mostrando:
 
 ### Impacto
 
-El comportamiento permite establecer una contraseña que no cumple los requisitos mínimos de seguridad definidos para la aplicación.
+La aplicación permite registrar una contraseña de 6 caracteres, incumpliendo el requisito **RF-05**, que establece una longitud mínima de 8 caracteres.
 
 ### Gestión del defecto
 
 El defecto fue registrado y documentado en Jira como **KAN-13**, relacionado con el caso de prueba **KAN-11 / TC-06**.
 
-El defecto permanece abierto/en revisión para representar correctamente el estado de un defecto detectado durante un ciclo de pruebas.
+El defecto permanece **En revisión** para representar correctamente el estado de un defecto detectado durante el ciclo de pruebas.
 
 ## 🔄 Flujo de trabajo
 
@@ -105,6 +105,8 @@ Registro del defecto
 Seguimiento
     ↓
 Cierre del ciclo de pruebas
+```
+
 ## 🛠️ Herramientas utilizadas
 
 * Jira
