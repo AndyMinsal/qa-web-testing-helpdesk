@@ -73,7 +73,7 @@ La aplicación debería rechazar la contraseña cuando no cumple los requisitos 
 
 La aplicación acepta la contraseña y permite completar el registro mostrando:
 
-`ACCOUNT CREATED!`
+**ACCOUNT CREATED!**
 
 ### Impacto
 
@@ -89,23 +89,7 @@ El defecto permanece **En revisión** para representar correctamente el estado d
 
 El proyecto siguió un flujo básico de QA:
 
-```text
-Requisitos
-    ↓
-Test Plan
-    ↓
-Casos de prueba
-    ↓
-Ejecución
-    ↓
-PASS / FAIL
-    ↓
-Registro del defecto
-    ↓
-Seguimiento
-    ↓
-Cierre del ciclo de pruebas
-```
+**Requisitos → Test Plan → Casos de prueba → Ejecución → PASS / FAIL → Registro del defecto → Seguimiento → Cierre del ciclo de pruebas**
 
 ## 🛠️ Herramientas utilizadas
 
