@@ -105,38 +105,42 @@ Registro del defecto
 Seguimiento
     ↓
 Cierre del ciclo de pruebas
-🛠️ Herramientas utilizadas
-Jira
-Navegador web
-Aplicación web de pruebas
-GitHub
-Pruebas funcionales manuales
-📸 Evidencias
+## 🛠️ Herramientas utilizadas
+
+* Jira
+* Navegador web
+* Aplicación web de pruebas
+* GitHub
+* Pruebas funcionales manuales
+
+## 📸 Evidencias
 
 El proyecto incluye evidencias de:
 
-Ejecución de los casos de prueba.
-Resultado PASS de los casos correctos.
-Resultado FAIL del caso TC-06.
-Registro del defecto.
-Relación entre caso de prueba y defecto.
-Gestión del proyecto en Jira.
-📚 Conocimientos demostrados
+* Ejecución de los casos de prueba.
+* Resultado PASS de los casos correctos.
+* Resultado FAIL del caso TC-06.
+* Registro del defecto.
+* Relación entre caso de prueba y defecto.
+* Gestión del proyecto en Jira.
+
+## 📚 Conocimientos demostrados
 
 Este proyecto demuestra experiencia práctica en:
 
-QA Manual.
-Diseño de casos de prueba.
-Pruebas funcionales.
-Validación de requisitos.
-Identificación de defectos.
-Reproducción de errores.
-Documentación de bugs.
-Gestión de incidencias en Jira.
-Seguimiento del ciclo de pruebas.
-Elaboración de evidencias de testing.
-🎓 Conclusión
+* QA Manual.
+* Diseño de casos de prueba.
+* Pruebas funcionales.
+* Validación de requisitos.
+* Identificación de defectos.
+* Reproducción de errores.
+* Documentación de bugs.
+* Gestión de incidencias en Jira.
+* Seguimiento del ciclo de pruebas.
+* Elaboración de evidencias de testing.
+
+## 🎓 Conclusión
 
 El proyecto permitió realizar un ciclo completo de pruebas funcionales sobre una aplicación web, desde la definición de requisitos y diseño de casos de prueba hasta la ejecución, identificación y documentación de un defecto.
 
-El resultado final fue de 5 casos PASS y 1 caso FAIL, con un defecto correctamente documentado y relacionado con el caso de prueba correspondiente.
+El resultado final fue de **5 casos PASS y 1 caso FAIL**, con un defecto correctamente documentado y relacionado con el caso de prueba correspondiente.
