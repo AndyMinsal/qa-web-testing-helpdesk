@@ -149,5 +149,4 @@ Este proyecto demuestra experiencia práctica en:
 ## 🎓 Conclusión
 
 El proyecto permitió realizar un ciclo completo de pruebas funcionales sobre una aplicación web, desde la definición de requisitos y diseño de casos de prueba hasta la ejecución, identificación y documentación de un defecto.
-
 El resultado final fue de **5 casos PASS y 1 caso FAIL**, con un defecto correctamente documentado y relacionado con el caso de prueba correspondiente.
