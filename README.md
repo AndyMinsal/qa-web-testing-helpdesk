@@ -105,31 +105,31 @@ El proyecto siguió un flujo básico de QA:
 
 Vista general del proyecto y de las actividades utilizadas para gestionar el ciclo de pruebas.
 
-<img src="evidencias/01-jira-proyecto.PNG" alt="Proyecto Jira" width="900">
+![Proyecto Jira](evidencias/01-jira-proyecto.PNG)
 
 ### 2. Test Plan
 
 Estructura y planificación del ciclo de pruebas.
 
-<img src="evidencias/02-test-plan.PNG" alt="Test Plan" width="900">
+![Test Plan](evidencias/02-test-plan.PNG)
 
 ### 3. Casos de prueba
 
 Casos de prueba definidos para validar el proceso de registro.
 
-<img src="evidencias/03-casos-de-prueba.PNG" alt="Casos de prueba" width="900">
+![Casos de prueba](evidencias/03-casos-de-prueba.PNG)
 
 ### 4. Ejecución de pruebas
 
 Resultado de la ejecución: **5 casos PASS y 1 caso FAIL**.
 
-<img src="evidencias/04-ejecucion-pruebas.PNG" alt="Ejecución de pruebas" width="900">
+![Ejecución de pruebas](evidencias/04-ejecucion-pruebas.PNG)
 
 ### 5. Defecto KAN-13
 
 Defecto identificado durante la ejecución del caso TC-06 y documentado en Jira.
 
-<img src="evidencias/05-defecto-kan-13.PNG" alt="Defecto KAN-13" width="900">
+![Defecto KAN-13](evidencias/05-defecto-kan-13.PNG)
 
 ## 📚 Conocimientos demostrados
 
